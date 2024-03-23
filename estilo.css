@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+	color:white;
+ }
+.tela{
+    position: absolute;
+  width:10%;
+  left:0;
+  z-index:1;
+  border:1px solid white;
+ }
+.casting{
+	width:100%;
+    height: 100%;
+}
+.controls{
+display: flex;
+justify-content: center;
+text-align:center;
+    width:100%;
+    height:10vh;
+	font-size:2vh;
+
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	height:80vh;
+	border:2px solid black;
+}
+.text{
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+}
+h1{
+  font-size: 25px;
+  color:white;
+  font-family: 'Courier New';
+}
